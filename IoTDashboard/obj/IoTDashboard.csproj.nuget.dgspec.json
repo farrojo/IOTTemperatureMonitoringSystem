@@ -43,6 +43,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Azure.EventHubs": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
