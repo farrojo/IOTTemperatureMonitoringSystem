@@ -1,0 +1,35 @@
+# 🚀 Ignorar archivos y carpetas generados por PlatformIO
+
+# Carpeta de librerías descargadas
+.pio/
+.pioenvs/
+.pio/libdeps/
+.pio/build/
+
+# Carpeta de dependencias locales
+libdeps/
+
+# Archivos de configuración temporales
+*.elf
+*.bin
+*.hex
+*.map
+*.pyc
+*.pyo
+*.log
+*.o
+*.d
+*.dep
+*.cmd
+
+# Archivos de depuración y compilación
+.vscode/
+*.json
+*.ini.bak
+platformio.ini.bak
+
+# Archivos de entorno virtual de Python (si usaste `venv`)
+venv/
+venv/Scripts/
+venv/Lib/
+venv/Include/
